@@ -24,7 +24,7 @@ local library = {
         configs = "splix/configs"
     },
     shared = {
-        initialized = false,
+        initialized = true,
         fps = 0,
         ping = 0
     }
@@ -57,7 +57,7 @@ local theme = {
     textborder = Color3.fromRGB(0, 0, 0),
     cursoroutline = Color3.fromRGB(10, 10, 10),
     font = 2,
-    textsize = 13
+    textsize = 15
 }
 -- // Utility Functions
 do
